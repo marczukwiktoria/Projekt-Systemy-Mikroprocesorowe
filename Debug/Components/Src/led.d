@@ -1,6 +1,6 @@
 Components/Src/led.o: ../Components/Src/led.c \
- C:/Users/user/STM32CubeIDE/workspace_1.13.2/L05_Example/Components/Inc/led.h \
- C:/Users/user/STM32CubeIDE/workspace_1.13.2/L05_Example/Components/Inc/dio.h \
+ C:/Users/wika3/STM32CubeIDE/workspace_1.13.2/L05_Example-2/L05_Example/Components/Inc/led.h \
+ C:/Users/wika3/STM32CubeIDE/workspace_1.13.2/L05_Example-2/L05_Example/Components/Inc/dio.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../Core/Inc/stm32f7xx_hal_conf.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -31,9 +31,9 @@ Components/Src/led.o: ../Components/Src/led.c \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
- C:/Users/user/STM32CubeIDE/workspace_1.13.2/L05_Example/Components/Inc/pwm.h
-C:/Users/user/STM32CubeIDE/workspace_1.13.2/L05_Example/Components/Inc/led.h:
-C:/Users/user/STM32CubeIDE/workspace_1.13.2/L05_Example/Components/Inc/dio.h:
+ C:/Users/wika3/STM32CubeIDE/workspace_1.13.2/L05_Example-2/L05_Example/Components/Inc/pwm.h
+C:/Users/wika3/STM32CubeIDE/workspace_1.13.2/L05_Example-2/L05_Example/Components/Inc/led.h:
+C:/Users/wika3/STM32CubeIDE/workspace_1.13.2/L05_Example-2/L05_Example/Components/Inc/dio.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
@@ -64,4 +64,4 @@ C:/Users/user/STM32CubeIDE/workspace_1.13.2/L05_Example/Components/Inc/dio.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
-C:/Users/user/STM32CubeIDE/workspace_1.13.2/L05_Example/Components/Inc/pwm.h:
+C:/Users/wika3/STM32CubeIDE/workspace_1.13.2/L05_Example-2/L05_Example/Components/Inc/pwm.h:

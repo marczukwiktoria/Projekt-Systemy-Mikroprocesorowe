@@ -61,8 +61,8 @@ all: main-build
 main-build: L05_Example.elf secondary-outputs
 
 # Tool invocations
-L05_Example.elf L05_Example.map: $(OBJS) $(USER_OBJS) C:\Users\user\STM32CubeIDE\workspace_1.13.2\L05_Example\STM32F746ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "L05_Example.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\user\STM32CubeIDE\workspace_1.13.2\L05_Example\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L05_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+L05_Example.elf L05_Example.map: $(OBJS) $(USER_OBJS) C:\Users\wika3\STM32CubeIDE\workspace_1.13.2\L05_Example-2\L05_Example\STM32F746ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "L05_Example.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\wika3\STM32CubeIDE\workspace_1.13.2\L05_Example-2\L05_Example\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L05_Example.map" -Wl,--gc-sections -static -LC:\Users\wika3\STM32Cube\Repository\Packs\ARM\CMSIS\5.7.0\CMSIS\DSP\Lib\GCC -L"C:\Users\wika3\STM32Cube\Repository\Packs\ARM\CMSIS\5.7.0\CMSIS\DSP\Lib\GCC" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
